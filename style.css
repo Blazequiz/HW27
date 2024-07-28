@@ -1,0 +1,46 @@
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  height: 400px;
+  background-color: #ccc;
+  width: 100px;
+}
+.menu-item {
+  position: relative;
+  margin-right: 15px;
+}
+ .menu-item:hover .submenu {
+  display: block;
+}
+.menu-link {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+.submenu {
+  position: absolute;
+  width: 100%;
+  left: 100%;
+  top: 0;
+  margin: 0;
+  list-style: none;
+  padding: 10px;
+  background-color: #ccc;
+  color: white;
+  display: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.submenu-element{
+  margin-bottom: 10px;
+}
+.submenu-element:hover {
+  color: rgb(255, 180, 41);
+}
+.submenu a {
+  text-decoration: none;
+}
